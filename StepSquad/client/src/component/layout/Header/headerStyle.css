@@ -1,0 +1,25 @@
+.header{
+    font-family:"Raleway";
+}
+.iconBg{
+    background-color: #FBF0EA!important;
+    border-radius: 5px;
+    /* padding: 0.5rem !important; */
+    color:black !important;
+    padding:0.4rem 0.4rem;
+
+}
+
+.link-secondary{
+    font-weight:300;
+}
+
+
+.footer, .header{
+    background-color: #fbf0ea5e;
+}
+
+.fonts{
+    font-size:12px;
+    color:black;
+}

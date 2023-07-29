@@ -1,0 +1,177 @@
+
+
+
+/* SAME */
+.fontWeight600{
+    font-weight:600;
+}
+.fontWeight400{
+    font-weight:400;
+}
+
+.banner {
+        background-image: linear-gradient(to right,#f1cfc9ab,#f1bab1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vmin;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+
+.bannerType{
+    font-family: 'Raleway';  
+    display:inline-block;  
+    padding:5rem;
+}
+
+.typed {
+    overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 5s;
+  animation-timing-function: steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.type1 , .type3{
+    font-size:3.5rem;
+}
+.type2{
+
+        font-size:2rem;
+        font-weight:100;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+
+.moreItem{
+  background-color:#FBF0EA;
+  color:black;
+  font-size:1rem;
+  font-weight:300;
+  padding:0.2rem;
+}
+.items{
+  position: relative;
+  left: 10px;  
+  font-family: 'Raleway'!important;
+  text-decoration: none!important;
+}
+
+.imgBg{
+  width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+.homeHeading {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.8vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 23vmax;
+    padding: 1vmax;
+    margin: 1vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+  }
+
+.container{
+    display:flex;
+    margin:2vmax auto;
+    width:100vw;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+  .productCard{
+      width:16vmax;
+      display:flex;
+      flex-direction:column;
+      text-decoration:none;
+      color:rgb(48,48,48);
+      margin:1vmax;
+      transition:all 0.5s;
+      padding-bottom:0.5vmax;
+      font-family: "Poppins";
+  }
+  .productCard > img{
+    height:25vmax;
+    width:16vmax;
+    object-fit: cover;
+  }
+  .productCard > p{
+    font-size:1rem;
+    font-weight:bold;
+    margin-top:5px;
+  }
+
+
+.card > div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0 !important;;
+  }
+
+.card> div >span{ 
+     font:400 0.9vmax "Poppins";
+ }
+
+ .productCard:hover{
+     box-shadow:0 0 5px rgba(15, 15, 15, 0.199);
+     transform:translateY(-0.5vmax);
+ }
+
+ @media screen and (max-width: 1170px) {
+     .homeHeading{
+         font-size:3vmax;
+         width:35vmax;
+
+     }
+     .productCard{
+         width:20vmax;
+     }
+     .productCard>img{
+       width:20vmax;
+       height:30vmax;
+       object-fit: cover;
+     }
+    .productCard > p {
+      font-size: 1.7vmax;
+     margin-bottom:0;
+
+    }
+  
+    .productCard > span {
+      font-size: 1.6vmax;
+    
+    }
+  
+    .productCard > div > span {
+      font: 300 1vmax "Poppins";
+    }
+  }
+
+  .loader{
+    width:100vw;
+    height:100vh;
+   max-width:100%;
+   display:grid;
+   place-items: center;
+  }
